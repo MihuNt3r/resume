@@ -1,3 +1,7 @@
+.contacts li a.instagram:hover{
+    color: #C13584;
+}
+
 /* Wave */
 #wave {
     color:green;
