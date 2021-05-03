@@ -1,1 +1,40 @@
+/* Wave */
+#wave {
+    color:green;
+    padding-top: calc((100% - 1127px) / 2);
+    height: 7em;
+    box-sizing: content-box;
+    background: currentColor;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 
+#wave svg {
+    display: block;
+    position: relative;
+    top: calc(7em - 1px);
+}
+
+  /* Credits */
+  .credits {
+    text-align: right;
+    padding: 0.5em 0.75em;
+    line-height: 1em;
+    transition: opacity 0.2s linear;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: white;
+    background: green;
+    border-radius: 15px;
+    transition: all 0.2s linear;
+}
+.credits:not(:hover) a {
+    color: indianred;
+}
+.credits:hover {
+    color:black;
+    background: white;
+}
