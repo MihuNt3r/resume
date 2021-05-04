@@ -6,14 +6,23 @@
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
     <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous"></script>
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw==" crossorigin="anonymous"></script>
   </head>
   <body>
     <main>
+        <div class="ui modal">
+          <div class="header">My favourite languages &#128514;</div>
+          <div class="image content">
+            <img src="assets/images/languages.jpg" class="ui fluid image">
+            <div class="description">
+              <p>You guys asked for some memes)</p>
+            </div>
+          </div>
+        </div>
         <div id="wave">
             <div class="credits">
               Built using <a href="https://volodymyrkushnir.com/" rel="external"><strong>volodymyrkushnir.com</strong></a> 🧰
@@ -28,7 +37,7 @@
                 <div class="row">
                   <div class="three wide center aligned column">
                     <div class="avatar-wrapper">
-                      
+                      <object class="avatar" data="./assets/images/ava.png" role="img" aria-label="My profile picture"></object>
                     </div>
                   </div>
                   <div class="thirteen wide column">
@@ -93,9 +102,42 @@
                             <strong>Student in NAU, FCCSE</strong>
                             <ul>
                                 <li class="details">
-                                    <p><i></i></p>
+                                    <p><i>And now I am here studying software engineering. I’m studying programming and I do enjoy, most aspects of it.
+                                      I have chosen the profession of software engineer because I think that this is a profession of the future.</i></p>
                                 </li>
                             </ul>
+                        </li>
+                        <li>
+                          <p><i>2008 - 2019</i></p>
+                          <strong>School</strong>
+                          <ul>
+                            <li class="details">
+                              <input type="checkbox" id="lyceum">
+                              <label for="lyceum" class="summary">
+                                <strong>Pupil</strong> at <strong>1 School, Baryshivka, Kyiv Region</strong>
+                              </label>
+                              <div>
+                                <ul>
+                                  <li>I was very proud when I became a pupil. This elementary school, I attended, wasn’t exactly very big since my home town didn’t probably have more than 10 or 15 thousand population. When I was attending an elementary school, I didn’t know very much about how a school should have been. But, one thing is for sure that I liked going to my elementary school as a child. Primary school was easy for me. I liked learning, reading books, and explore something new every day.</li>
+                                  <li>When I got older I started trying myself in different kinds of sport. In 5th grade, I went to the football section. I enjoyed playing football and every day after school I ran to the pitch to play. Then I with my friend tried to go to the basketball section. That was a great time too.</li>
+                                  <li>Then in high school, I started doing Thai boxing and some workout. After a few months, I took part in my first Thai boxing competition. And I lost it. But after another few months of training, I took part in the next competitions. And this time I won. Those were crazy feelings. It's really incredible when you win and the referee raises your hand. At such moments you feel very proud of yourself. Because hard work always pays off. </li>
+                                  <li>Then graduation year came. And with it came the fear of future exams. The whole last year at school I went to tutors to prepare for the exams. I was not sure about my knowledge of English and mathematics. Fortunately, the year of preparation was not in vain and I successfully passed the exams. I graduated and went to National Aviation University. </li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <p>
+                            <strong>The best childhood</strong>
+                            </p>Of course with sweet, toys, parent's love and friends)<p></p>
+                          <p></p>
+                        </li>
+                        <li>
+                          <p><em>23<sup>th</sup> July 2002</em></p>
+                          <p>
+                            <strong>Born</strong> in <strong>Kyiv, Ukraine</strong><sup><em></em></sup>
+                          </p>
                         </li>
                     </ul>
                   </div>
@@ -104,27 +146,47 @@
                       <h3>Languages</h3>
                       <p class="tags small">
                         <span class="language" lang="en">🇺🇸 ENGLISH</span>
+                        <span class="language" lang="uk">🇺🇦 УКРАЇНСЬКА</span></a>
+                        <span class="language" lang="ru">🇷🇺 РУССКИЙ</span></a>
                       </p>
+                      <a id="resume" href="#" onclick="show()" title="Show real languages photo">
+                        <span class="dots">
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                        </span>
+                        <em>My real languages</em>
+                      </a>
                     </section>
                     <section>
                       <h3>Skills</h3>
-                      <p class="tags small"></p>
+                      <p class="tags small">
+                        ASP.Net Core, .Net Framework, HTML\CSS, JS, Bootstrap, OOP, OOD, SOLID principles, Design Patterns, MS SQL, T-SQL.
+                      </p>
                     </section>
                     <section>
                       <h3>Character</h3>
-                      <p class="tags small"></p>
+                      <p class="tags small">
+                        EXPLORER, DREAMER, CHALLENGING, HARDWORKING, CURIOUS
+                      </p>
                     </section>
                     <section>
-                      <h3>Likes&#x1f603</h3>
-                      <p class="tags small"></p>
+                      <h3>Like&#x1f603</h3>
+                      <p class="tags small">
+                        SPORTS, WORKOUT, SELF-DEVELOPING, ADRENALINE, BJJ, MUAY-THAI, MOVIES, SERIES, SPEND TIME WITH FAMILY, TRUE FRIENDSHIP
+                      </p>
                     </section>
                     <section>
-                      <h3>Dislikes&#x1f61e</h3>
-                      <p class="tags small"></p>
+                      <h3>Dislike&#x1f61e</h3>
+                      <p class="tags small">
+                        INJURIES, SADNESS, LONELINESS, LIE, INSECTS, POLITICS
+                      </p>
                     </section>
                     <section>
-                      <h3>Wants&#x1f97a</h3>
-                      <p class="tags small"></p>
+                      <h3>Want&#x1f97a</h3>
+                      <p class="tags small">
+                        BE HEALTHY, CHASE OWN DREAMS, BE HAPPY, MAKE PEOPLE AROUND ME HAPPY
+                      </p>
                     </section>
                   </div>
                 </div>
@@ -132,5 +194,12 @@
           </div>
         </article>
       </main>
+      <script>
+        function show(){
+          $('.ui.modal')
+        .modal('show')
+        ;
+        }
+      </script>
   </body>
 </html>
